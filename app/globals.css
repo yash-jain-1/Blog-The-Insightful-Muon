@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset */
+
+@import 'tailwindcss/base';
+
+.expanded {
+    max-height: none;
+    overflow: visible;
+  }
+  
+
+h1 {
+  @apply text-4xl font-bold mt-4 mb-2 text-red-600;
+}
+
+h2 {
+  @apply text-3xl font-semibold mt-3 mb-1 text-blue-500;
+}
+
+h3 {
+  @apply text-2xl font-medium mt-2 mb-1 text-blue-900;
+}
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, blockquote, figure, figcaption,
+  dl, dd, ul, ol, li,
+  pre, code,
+  form, fieldset, legend, input, textarea, button, label,
+  article, aside, details, figcaption, figure,
+  footer, header, main, menu, nav, section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove list styles (bullet points, numbers) */
+  ul, ol {
+    list-style: none;
+  }
+  
+  
+  /* Remove default table spacing */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Remove default text decoration */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Remove default outline styles */
+  button,
+  input,
+  textarea,
+  select {
+    outline: none;
+  }
+  
+  /* Set base font size and line height */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Set default font family */
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Disable user select */
+    body {
+        -webkit-user-select: none;
+         -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    }
+  /* Reset heading elements */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  /* Set default margins for heading elements */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  

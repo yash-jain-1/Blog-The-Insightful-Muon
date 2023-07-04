@@ -1,65 +1,34 @@
-# Blog-The-Insightful-Muon
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Table of Contents
+## Getting Started
 
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+First, run the development server:
 
-## Demo
-
-[Live Demo](https://your-website-url.com) - Add a link to the live demo of your website here.
-
-## Features
-
-- Displaying a list of the latest blog posts with a title, excerpt, and image.
-- Implementing a "Read More" feature to expand and collapse blog post content.
-- Showcasing individual blog posts on a separate page with the full content.
-
-## Installation
-
-1. Clone the repository:
-
-```
-git clone https://github.com/your-username/your-repository.git
-```
-
-2. Install the dependencies:
-
-```
-cd your-repository
-npm install
-```
-
-3. Set up the Appwrite API Endpoint and Project ID:
-
-   Open `BlogPage.js` and `FullBlogPost.js` and update the `client.setEndpoint` and `client.setProject` with your Appwrite API Endpoint and Project ID.
-
-## Usage
-
-1. Run the development server:
-
-```
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-2. Open your browser and visit `http://localhost:3000` to see the website.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Technologies Used
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-- Next.js
-- React
-- Appwrite (for fetching blog posts from the API)
-- Tailwind CSS (for styling)
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Contributing
+## Learn More
 
-Contributions are welcome! If you find any bugs or want to add new features, feel free to open an issue or submit a pull request.
+To learn more about Next.js, take a look at the following resources:
 
-## License
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-This project is licensed under the [MIT License](LICENSE).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
